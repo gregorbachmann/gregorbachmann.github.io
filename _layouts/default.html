@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>        
+        {% if site.logo %}
+          <p style="text-align: center;"><img src="{{site.logo | relative_url}}" alt="photo"/></p>
+        {% endif %}
+
+        <p style="text-align: center;">{{ site.description | default: site.github.project_tagline }}</p>
+        <!-- <p style="text-align: center;"><a href="/research.pdf">Research Statement</a></p> -->
+        <br>
+        <p style="text-align: center;"><a href="mailto: takmaza@ethz.ch"><img src="/images/email_bold.png" width="24" height="24" align="top" alt=""></a><a href="https://ch.linkedin.com/in/aycatakmaz"><img src="/images/linkedin.png" width="21" height="21" align="top" alt=""></a><a href="http://www.github.com/aycatakmaz"><img src="/images/github_logo.jpg" width="24" height="24" align="top" alt=""></a><a href="https://scholar.google.com/citations?user=q8cyjtcAAAAJ&hl=en"><img src="/images/scholar3.jpg" width="24" height="24" align="top" alt=""></a><a href="https://twitter.com/aycatakmaz"><img src="/images/twitter_black.jpg" width="24" height="24" alt=""></a></p>
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <section>
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7877390&style=0007&nbdigits=6&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+                                    
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+  
+</html>

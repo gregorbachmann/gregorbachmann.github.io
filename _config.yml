@@ -1,0 +1,8 @@
+highlighter: rouge
+theme: jekyll-theme-minimal
+title: Ayça Takmaz
+show_downloads: false
+logo: ./images/picture.jpg
+
+# needed for travis-ci build
+exclude: [vendor]
